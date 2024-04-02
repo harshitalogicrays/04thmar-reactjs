@@ -1,0 +1,84 @@
+javascript - landline phone 
+
+jQuery  -  javascript library (keypad phone)
+
+ReactJS - frontend javascript library for buidling UI.
+	(smartphone)
+
+library - collection of functions.  (react)
+framework - collection of libraries (Angular, vue.js)
+
+1. SPA - single page application - 1 html page - index.html
+2. components - javascript functions or classes 
+html ----> javascript 
+
+react -> javascript ----> html 
+
+basic building block to perform a spcific task.
+provides reusability of code.
+
+components - return JSX (HTML + Javascript)
+
+
+function fun(){
+		return "Hello"
+		}
+		
+
+function Fun(){
+	return (<h1>Hello React</h1>) //JSX
+}
+
+3. virtual DOM - copy of real dom
+real DOM - browser create a DOM tree 
+react creates a copy of Real DOM - virtual DOM
+
+reactjs - webpages - instagram  
+react -native  - instagram app 
+
+facebook developer - reactjs developed 
+
+instagram - 
+stories 
+post 
+reels 
+search 
+profile 
+home 
+like 
+comment 
+share 
+images display etc.
+
+post -image display, like , comment and share 
+
+component - 
+
+function Fun(){
+	return (<h1>Hello Component</h1>)
+}
+
+<Fun></Fun> or <Fun/>
+
+rules -
+1. html tags always small letters. 
+2. component are always in pascal case . (first letter capital)
+3. all tags should be paired. 
+	<br></br> or </br>
+4. class => className 
+	<label for => htmlFor 
+	
+=================================
+nodejs install 
+
+npx create-react-app app-name 
+============================
+project structure / boilerplate code /scafolding 
+
+git and github 
+
+function component 
+props 
+
+=======================================
+
