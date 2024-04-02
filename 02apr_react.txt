@@ -1,0 +1,13 @@
+<h1 id="" name="" class=""></h1> //html attributes
+
+<FunComp></FunComp>
+
+<FunComp username="Happy" address="Pune"/> // properties - props 
+
+react unidirectional - one way - parent to child
+
+App ---> <FunComp ---> we can pass props
+
+and in FunComp we can access these props 
+
+props are read only we can not modify them in childcomp (FunComp)
