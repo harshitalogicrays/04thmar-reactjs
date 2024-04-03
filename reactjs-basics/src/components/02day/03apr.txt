@@ -1,0 +1,22 @@
+children props
+list rendering - map ,
+fragment
+events
+
+
+<React.Fragment> </React.Fragment>
+
+import {Fragment} from 'react'
+<Fragment></Fragment>
+
+or 
+<></> => shorthand of Fragment
+
+events - camel case 
+onClick , onBlur etc.
+
+=============================================
+state variable 
+hooks 
+conditions 
+====================================================

@@ -18,12 +18,12 @@ import React from 'react'
 
 const FunPropsdemo = ({username,address,...props}) => { 
     return (
-    <div>
+    <>
       <h1>Prop demo</h1>
       <h3>{username}</h3>
       <h3>{address}</h3>
       <h3>{props.mobile}</h3>
-    </div>
+    </>
   )
 }
 export default FunPropsdemo
