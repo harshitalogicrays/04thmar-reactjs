@@ -1,12 +1,17 @@
+import { useState } from 'react';
 import './App.css';
 import Childrenpropsdemo from './components/02day/Childrenpropsdemo';
 import EventDemo from './components/02day/EventDemo';
 import Listrendering from './components/02day/Listrendering';
+import ConditionalRendering from './components/03day/ConditionalRendering';
+import Statedemo from './components/03day/Statedemo';
+import Statedemo1 from './components/03day/Statedemo1';
 import FirstFunComp from './components/FirstFunComp';
 import FunPropsdemo from './components/FunPropsdemo';
 
 
 function App() {
+    let [isLoggedIn,setIsLoggedIn]=useState(false)
   return (
       <div className='container mt-5'>
           {/* <h1>Hello React</h1>
@@ -22,7 +27,17 @@ function App() {
 
           <Listrendering/> */}
 
-          <EventDemo/>
+          {/* <EventDemo/> */}
+          {/* <Statedemo/> */}
+
+          {/* <Statedemo1 address="Pune"/> */}
+
+          <button type="button"  class="btn btn-primary" onClick={()=>setIsLoggedIn(!isLoggedIn)}
+          >
+            {isLoggedIn ? "Logout":"Login"}
+          </button>
+          
+          <ConditionalRendering login={isLoggedIn} username="Happy"/>
       </div>
   );
 }

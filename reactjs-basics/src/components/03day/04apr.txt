@@ -1,0 +1,27 @@
+state variable  - always private to that class or function.
+we can not pass state directly from parent to child
+hooks  - React 16 React Hooks - in functional component 
+
+Hooks are nothing but functions 
+builtin  - 
+useState , useEffect, useRef, useReducer, useContext, useCallback, useMemo etc.
+custom hooks
+
+let a=10
+
+a print - 10
+change - setA(20)
+a print - 2o
+
+=======================================================================================
+
+conditional rendering -
+1. if else 
+2. javascript variable 
+3. ternary operator (?:) => condition ? true : false 
+4. short circuit (&& ) => condition && true 
+
+===================================================================================
+list rendering - array of object 
+lifting the state up
+form validations 
