@@ -8,6 +8,9 @@ import Statedemo from './components/03day/Statedemo';
 import Statedemo1 from './components/03day/Statedemo1';
 import FirstFunComp from './components/FirstFunComp';
 import FunPropsdemo from './components/FunPropsdemo';
+import Products from './components/04day/Products';
+import ProductList from './components/04day/ProductList';
+import Register from './components/04day/Register';
 
 
 function App() {
@@ -32,12 +35,17 @@ function App() {
 
           {/* <Statedemo1 address="Pune"/> */}
 
-          <button type="button"  class="btn btn-primary" onClick={()=>setIsLoggedIn(!isLoggedIn)}
+          {/* <button type="button"  class="btn btn-primary" onClick={()=>setIsLoggedIn(!isLoggedIn)}
           >
             {isLoggedIn ? "Logout":"Login"}
           </button>
           
-          <ConditionalRendering login={isLoggedIn} username="Happy"/>
+          <ConditionalRendering login={isLoggedIn} username="Happy"/> */}
+
+          {/* <Products/> */}
+          {/* <ProductList/> */}
+
+          <Register/>
       </div>
   );
 }
