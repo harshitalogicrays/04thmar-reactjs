@@ -1,0 +1,44 @@
+
+form validations 
+
+lifting the state up -
+parent -------> child
+        props 
+
+========================================================================
+CSS in react -
+1. inline css 
+    <h1 style={{color:'red'}}></h1>
+2. css variable 
+3. css file  - .css file 
+import 'path' 
+
+All the children of parent in which we have imported css can access css without importing
+
+4. css module file - .module.css file 
+import alias from 'path'
+if the component want to use then has to import css module file 
+
+5. boostrap 
+    <div classNAme="contaoiner"></div>
+6. react bootstrap - bootstrap css components for react 
+    <Continer></Container>
+7. styled-components - custom CSS components
+
+====================================================================================
+form validation - react hook form 
+useCallback hook and useRef hook 
+
+====================================================================================
+
+
+
+
+
+
+
+
+
+
+
+

@@ -22,6 +22,3 @@ conditional rendering -
 4. short circuit (&& ) => condition && true 
 
 ===================================================================================
-list rendering - array of object 
-lifting the state up
-form validations 

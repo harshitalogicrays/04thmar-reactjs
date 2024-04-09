@@ -11,13 +11,20 @@ import FunPropsdemo from './components/FunPropsdemo';
 import Products from './components/04day/Products';
 import ProductList from './components/04day/ProductList';
 import Register from './components/04day/Register';
+import FormValidations from './components/05day/FormValidations';
+import ParentComp from './components/05day/ParentComp';
+import CSSinReact from './components/05day/CSSinReact';
 
+import cssmodule from './app.module.css'
+import ReactHookFormDemo from './components/06day/ReactHookFormDemo';
+import UseCallbackDemo from './components/06day/UseCallbackDemo';
 
 function App() {
     let [isLoggedIn,setIsLoggedIn]=useState(false)
   return (
       <div className='container mt-5'>
-          {/* <h1>Hello React</h1>
+         {/* <h1 className={cssmodule.error}>Hello React - css module</h1> */}
+          {/*
           <h2>fdfdfd</h2>
           <FirstFunComp/><hr/>
           <FunPropsdemo username="Happy" address="Pune" mobile="9090090" />
@@ -45,7 +52,17 @@ function App() {
           {/* <Products/> */}
           {/* <ProductList/> */}
 
-          <Register/>
+          {/* <Register/> */}
+
+          {/* <FormValidations/> */}
+
+          {/* <ParentComp/> */}
+
+          {/* <CSSinReact/> */}
+
+          {/* <ReactHookFormDemo/> */}
+
+          <UseCallbackDemo/>
       </div>
   );
 }

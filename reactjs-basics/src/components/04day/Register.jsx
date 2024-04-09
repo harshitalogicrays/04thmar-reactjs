@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Container,Form,Button} from 'react-bootstrap'
 const Register = () => {
-  let [user,setUser]=useState({username:'ram',email:'ram@gmail.com',password:'ram123',cpassword:''})
+  let [user,setUser]=useState({username:'',email:'',password:'',cpassword:''})
   let handleSubmit=(e)=>{
     e.preventDefault()
     alert(JSON.stringify(user))
