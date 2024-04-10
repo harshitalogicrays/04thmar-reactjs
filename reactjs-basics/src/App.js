@@ -18,6 +18,9 @@ import CSSinReact from './components/05day/CSSinReact';
 import cssmodule from './app.module.css'
 import ReactHookFormDemo from './components/06day/ReactHookFormDemo';
 import UseCallbackDemo from './components/06day/UseCallbackDemo';
+import UseRefDemo from './components/07day/UseRefDemo';
+import Refdemo from './components/07day/Refdemo';
+import MyFirstClassComp from './components/07day/MyFirstClassComp';
 
 function App() {
     let [isLoggedIn,setIsLoggedIn]=useState(false)
@@ -62,7 +65,12 @@ function App() {
 
           {/* <ReactHookFormDemo/> */}
 
-          <UseCallbackDemo/>
+          {/* <UseCallbackDemo/> */}
+          {/* <UseRefDemo/> */}
+          {/* <Refdemo/> */}
+
+
+          <MyFirstClassComp loggedIn={isLoggedIn} marks={100}/>
       </div>
   );
 }

@@ -1,0 +1,27 @@
+useRef hook 
+ref continue
+class component 
+
+======================================================
+forms - 
+1. controlled component - reactjs manages it - state and onChange
+2. uncontrolled component - DOM manages itself - ref (Reference)
+
+useState hook - variable declare 
+
+useRef hook - hold the Reference (document.getElementById())
+ref returns current property -> value , id, style, play, pause,focus etc.
+
+
+forwardRef - 
+parent to child - fowarding ref
+
+=====================================================
+useMemo hook - self study 
+useMemo vs. useCallback 
+
+====================================================================
+class component -  
+
+rcc 
+rconst 
