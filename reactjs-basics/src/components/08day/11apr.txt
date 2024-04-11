@@ -1,0 +1,16 @@
+1.inline css
+2. style object
+3. global css 
+4. module css file 
+5. bootstrap 
+6. react bootstrap 
+7. styled components
+
+state in class component -
+
+component life cycle method -  class component
+
+============================================================================
+Routing - 
+
+

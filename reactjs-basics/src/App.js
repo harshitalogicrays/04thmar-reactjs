@@ -21,6 +21,9 @@ import UseCallbackDemo from './components/06day/UseCallbackDemo';
 import UseRefDemo from './components/07day/UseRefDemo';
 import Refdemo from './components/07day/Refdemo';
 import MyFirstClassComp from './components/07day/MyFirstClassComp';
+import ForminClassComp from './components/08day/ForminClassComp';
+import ComponentLifeCycleMethods from './components/08day/ComponentLifeCycleMethods';
+import PureComponentDemo from './components/08day/PureComponentDemo';
 
 function App() {
     let [isLoggedIn,setIsLoggedIn]=useState(false)
@@ -70,7 +73,18 @@ function App() {
           {/* <Refdemo/> */}
 
 
-          <MyFirstClassComp loggedIn={isLoggedIn} marks={100}/>
+          {/* <MyFirstClassComp loggedIn={isLoggedIn} marks={100}/> */}
+
+          {/* <ForminClassComp/> */}
+
+          {/* <button type="button"  class="btn btn-primary" onClick={()=>setIsLoggedIn(!isLoggedIn)}
+          >
+            {isLoggedIn ? "Logout":"Login"}
+          </button>
+
+          {isLoggedIn ?<ComponentLifeCycleMethods/> : ''} */}
+          
+          <PureComponentDemo/>
       </div>
   );
 }
