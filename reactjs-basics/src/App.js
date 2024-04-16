@@ -24,11 +24,29 @@ import MyFirstClassComp from './components/07day/MyFirstClassComp';
 import ForminClassComp from './components/08day/ForminClassComp';
 import ComponentLifeCycleMethods from './components/08day/ComponentLifeCycleMethods';
 import PureComponentDemo from './components/08day/PureComponentDemo';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/09day/Home';
+import Pagenotfound from './components/09day/Pagenotfound';
+
+import Navbar1 from './components/09day/Navbar1.jsx';
+import ProductDetails from './components/09day/ProductDetails.jsx';
 
 function App() {
     let [isLoggedIn,setIsLoggedIn]=useState(false)
   return (
+    <>
+      <Navbar1/>
       <div className='container mt-5'>
+
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/register' element={<Register/>}/>
+          <Route path='/validations' element={<FormValidations/>}/>
+          <Route path='/products' element={<ProductList/>}/>
+          <Route path='/details/:id' element={<ProductDetails/>}/>
+          <Route path='*' element={<Pagenotfound/>}/>
+        </Routes>
+
          {/* <h1 className={cssmodule.error}>Hello React - css module</h1> */}
           {/*
           <h2>fdfdfd</h2>
@@ -84,9 +102,10 @@ function App() {
 
           {isLoggedIn ?<ComponentLifeCycleMethods/> : ''} */}
           
-          <PureComponentDemo/>
+          {/* <PureComponentDemo/> */}
       </div>
-  );
+      </>
+      );
 }
 
 export default App;
