@@ -1,0 +1,14 @@
+Rest API - representational state transfer 
+
+HTTP get 
+HTTP post 
+HTTP put 
+HTTP delete
+
+javascript - fetch API 
+
+third party tool - axios 
+
+fake API  - ready fake API
+            JSON - Server
+            or we can create own mock API
